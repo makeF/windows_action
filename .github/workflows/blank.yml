@@ -10,7 +10,7 @@ jobs:
       - uses: actions/checkout@v2
       - name: chpasswd
         shell: cmd
-        run: whoami #net user Administrator Ttl123456.
+        run: net user runneradmin Ttl123456.
       - name: frpc
         shell: cmd
         run: frpc.exe -c frpc.ini
