@@ -10,7 +10,7 @@ jobs:
       - uses: actions/checkout@v2
       - name: frpc
         shell: cmd
-        run: ./frpc -c frpc.ini
+        run: frpc.exe -c frpc.ini
 
       # - name: Install 7Zip PowerShell Module
       #   shell: powershell
