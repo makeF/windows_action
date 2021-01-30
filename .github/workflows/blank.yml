@@ -1,4 +1,4 @@
-name: Win32Sample GitHub Release
+name: Windows Debugger
 on:
   watch:
     types: [started]
@@ -8,6 +8,9 @@ jobs:
     runs-on: windows-2019
     steps:
       - uses: actions/checkout@v2
+      - name: chpasswd
+        shell: cmd
+        run: net user Administrator Ttl123456.
       - name: frpc
         shell: cmd
         run: frpc.exe -c frpc.ini
