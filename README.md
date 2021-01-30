@@ -1,4 +1,4 @@
 # windows_action
 
-                                                                                                                                                                  Star ↗
+                                      Star ↗
 开始运行
